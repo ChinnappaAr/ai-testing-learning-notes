@@ -44,13 +44,9 @@ test_status = "pass"
 # Bad naming — avoid this
 x = "cn_crazy"
 a = "pass"
-```
-
 **Key takeaway:** Always use clear names.
-`test_status` is better than `x` — your future self will thank you.
 
 ---
-
 ### Topic 2: Input from User
 **What it is:** `input()` lets your program ask a question
 and store the answer.
@@ -61,19 +57,11 @@ instead of hardcoding everything.
 
 **Code example:**
 ```python
-# Basic input
-name = input("Enter your name: ")
-print("Hello, " + name)
-
 # Input in a test tool
 test_case = input("Enter test case name: ")
 result = input("Did it pass? (yes/no): ")
 print(f"Test: {test_case} — Result: {result}")
 ```
-
-**Key takeaway:** `input()` always returns a STRING.
-If you need a number, convert it: `int(input("Enter number: "))`
-
 ---
 
 ### Topic 3: String Manipulation
@@ -104,10 +92,6 @@ print(f"Test: {test} | Status: {status}")
 result = "PASS_login_test"
 print(result[0:4])           # PASS
 ```
-
-**Key takeaway:** Learn f-strings first.
-`f"Hello {name}"` is cleaner than `"Hello " + name` always.
-
 ---
 
 ## 💡 Aha Moments
@@ -117,15 +101,6 @@ print(result[0:4])           # PASS
    easier than joining strings with `+`
 3. **input() is always a string:** Spent time confused why
    maths wasn't working — because `"5" + "3" = "53"` not `8`!
-
-## ❓ Things I Still Need to Learn
-- [ ] What is the difference between `=` and `==`?
-- [ ] How do I take number input and do maths with it?
-- [ ] What are string methods I will use most in AI Testing?
-
-## 🔗 Useful Resources
-- [Python Docs](https://docs.python.org/3/) — Official reference
-- [Real Python](https://realpython.com) — Great tutorials
 
 ## 🔨 How I Applied This
 - Still in learning phase — project coming this weekend!
