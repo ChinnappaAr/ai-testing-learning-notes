@@ -89,7 +89,23 @@ print(f"Test: {test} | Status: {status}")
 # Slicing
 result = "PASS_login_test"
 print(result[0:4])           # PASS
----
+------
+# F String, Type checking & Type conversion
+name = "World"
+
+# f-strings (best way)
+greeting = f"Hello, {name}"
+greeting = f"Hello, {name.upper()}"
+greeting = f"{5:.2f}"  # Output: 5.00 (formatting numbers)
+
+# Coding example for Type conversion and f-string
+age=30
+user_id=101
+print(f"Age is "+ str(age))
+print(f"Helloo {age}")
+
+
+
 
 ## 🔨 How I Applied This
 - Still in learning phase — project coming this weekend!
