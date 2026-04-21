@@ -112,3 +112,8 @@ print(result[0:4])           # PASS
 
 **Would I recommend?** Yes — perfect for someone
 coming from another language like Java
+
+
+print("Hello CNP")
+
+
