@@ -56,12 +56,11 @@ Build tools that ask testers for data
 instead of hardcoding everything.
 
 **Code example:**
-```python
 # Input in a test tool
 test_case = input("Enter test case name: ")
 result = input("Did it pass? (yes/no): ")
 print(f"Test: {test_case} — Result: {result}")
-```
+
 ---
 
 ### Topic 3: String Manipulation
@@ -73,7 +72,6 @@ API responses come back as strings.
 You'll slice, search, and format them constantly.
 
 **Code example:**
-```python
 name = "chinnappa"
 
 # Common string methods
@@ -91,29 +89,13 @@ print(f"Test: {test} | Status: {status}")
 # Slicing
 result = "PASS_login_test"
 print(result[0:4])           # PASS
-```
 ---
-
-## 💡 Aha Moments
-1. **No type declaration:** In Java you write `String name = "CN"`.
-   In Python just `name = "CN"` — so clean!
-2. **f-strings are magic:** `f"Result: {status}"` is so much
-   easier than joining strings with `+`
-3. **input() is always a string:** Spent time confused why
-   maths wasn't working — because `"5" + "3" = "53"` not `8`!
 
 ## 🔨 How I Applied This
 - Still in learning phase — project coming this weekend!
 
-## ⭐ My Rating So Far: 9/10
-**Pros:**
-- Angela explains very clearly
-- Good examples for beginners
-
 **Would I recommend?** Yes — perfect for someone
 coming from another language like Java
 
-
-print("Hello CNP")
 
 
