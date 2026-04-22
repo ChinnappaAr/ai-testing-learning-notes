@@ -104,7 +104,13 @@ user_id=101
 print(f"Age is "+ str(age))
 print(f"Helloo {age}")
 
-
+#codeing example for Loop[finding Max number]
+no=[1,2,3,44,55,66,8]
+max=no[0]
+for n in no:
+    if n > max:
+        max=n
+print("Max no is:", {max})
 
 
 ## 🔨 How I Applied This
